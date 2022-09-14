@@ -1,0 +1,56 @@
+@use 'src/assets/vars';
+
+.header{
+  display:flex;
+
+  &__title{
+    display:flex;
+  }
+
+  &__info{
+    padding-top: 20px;
+    padding-left: 15px;
+
+    &__box{
+      border-left: 1px solid #878A97;
+      padding: 2px 12px;
+    }
+  }
+
+  &__port{
+    margin: 10px 0 10px;
+    display: flex;
+  }
+
+  &__text{
+    margin: 5px;
+    &__or{
+      padding-right: 10px;
+      padding-left: 10px;
+      margin-bottom: 5px;
+    }
+    &_ip{
+      color: #1A53BA;
+      padding-right: 30px;
+      padding-left: 10px;
+    }
+  }
+
+  &__blue-box{
+    display: flex;
+    background: #EEF4FF;
+    padding: 5px;
+  }
+
+  &__btn{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__radio-group{
+    height: 34px;
+    margin: 0 0 10px;
+    border: 1px  solid vars.$bottom-background;
+    border-radius: 4px;
+  }
+}

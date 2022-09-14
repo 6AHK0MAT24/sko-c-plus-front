@@ -1,0 +1,118 @@
+@use 'src/assets/vars';
+
+.bntCameraOutlined {
+  position: absolute;
+  z-index: 10;
+}
+
+.point{
+  position: absolute;
+  z-index: 2;
+}
+
+.canvas{
+  position: absolute;
+  z-index: 1;
+}
+
+.lblPosition{
+}
+
+.setup-block{
+  overflow: auto;
+  height: auto;
+  width: 405px;
+  position: relative;
+
+  &__camera{
+    position: relative;
+    width: 400px;
+    height: 225px;
+  }
+
+  &__info{
+    position: relative;
+    background: vars.$setup-box-info;
+    padding: 10px;
+    border-top: 6px solid #FFFFFF;
+    width: 400px;
+  }
+
+  &__label {
+    padding-bottom: 10px;
+    background: vars.$setup-box-info;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__btnSwitch{
+    position: absolute;
+    top:380px;
+    right:5px;
+    z-index: 1;
+  }
+}
+.action {
+  &__frame {
+    display: inline-flex;
+    margin-top: 4%;
+    margin-left: 10%;
+  }
+
+}
+.setup-coord {
+  display: flex;
+
+  &__frame {
+    display:flex;
+    padding-top: 5%;
+    margin-bottom: 10px;
+  }
+
+  &__upBtn{
+
+    margin-top: -20px;
+  }
+  &__downBtn{
+    margin-left: -85px;
+    margin-top: 20px;
+  }
+}
+
+.setup-details{
+  display:flex;
+
+  &__frame {
+    display:grid;
+    padding-left: 80%
+  }
+
+  &__rotateBtn{
+    display: flex;
+    margin-top: -10px;
+  }
+
+  &__zoomBtn{
+    display: flex;
+    margin-top: -10px;
+  }
+
+  &__block{
+    padding-right:10px;
+    display: flex;
+  }
+
+  &__label{
+    padding-right: 5px;
+
+    &__roi{
+      padding-left: 10px;
+      padding-right: 5px;
+    }
+  }
+}
+
+
+
+
+

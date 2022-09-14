@@ -1,0 +1,177 @@
+.main-block{
+  width: 1440px;
+  height: auto;
+  left: 400px;
+  top: 0;
+  float: right;
+  background: #ffefd5;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  &__btn{
+    position: absolute;
+    right: 60px;
+    margin-top: 5px;
+    z-index: 2;
+  }
+  &__img{
+    display: flex;
+    align-content: center;
+    align-self: center;
+  }
+}
+.ant-btn-circle {
+  border-radius: 50% !important;
+}
+.cameraBtn {
+  position: absolute;
+}
+
+.canvas{
+  position: absolute;
+  z-index: 1;
+}
+#camera1v {
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 30px;
+  z-index: 2;
+}
+#camera2v {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 230px;
+  z-index: 2;
+}
+#camera3v {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 760px;
+  z-index: 2;
+}
+#camera4v {
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 970px;
+  z-index: 2;
+}
+#camera5v {
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 760px;
+  z-index: 2;
+}
+#camera6v {
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 230px;
+  z-index: 2;
+}
+
+#camera1l {
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 10px;
+  z-index: 2;
+}
+#camera2l {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 360px;
+  z-index: 2;
+}
+#camera4l {
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 360px;
+  z-index: 2;
+}
+#camera3l {
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 720px;
+  z-index: 2;
+}
+
+.focus1v {
+  position: absolute;
+  top: 520px;
+  left: 520px;
+  color: #05FF00;
+  font-size: 40px;
+  z-index: 2;
+}
+.focus2v {
+  position: absolute;
+  top: 350px;
+  left: 850px;
+  color: #05FF00;
+  font-size: 40px;
+  z-index: 2;
+}
+.focus3v {
+  position: absolute;
+  top: 350px;
+  left: 1400px;
+  color: #05FF00;
+  font-size: 40px;
+  z-index: 2;
+}
+.focus4v {
+  position: absolute;
+  top: 520px;
+  left: 1750px;
+  color: #05FF00;
+  font-size: 40px;
+  z-index: 2;
+}
+.focus5v {
+  position: absolute;
+  top: 720px;
+  left: 1400px;
+  color: #05FF00;
+  font-size: 40px;
+  z-index: 2;
+}
+.focus6v {
+  position: absolute;
+  top: 720px;
+  left: 850px;
+  color: #05FF00;
+  font-size: 40px;
+  z-index: 2;
+}
+
+.focus1l {
+  position: absolute;
+  top: 520px;
+  left: 630px;
+  color: #05FF00;
+  font-size: 40px;
+  z-index: 2;
+}
+.focus2l {
+  position: absolute;
+  top: 320px;
+  left: 1120px;
+  color: #05FF00;
+  font-size: 40px;
+  z-index: 2;
+}
+.focus3l {
+  position: absolute;
+  top: 520px;
+  left: 1640px;
+  color: #05FF00;
+  font-size: 40px;
+  z-index: 2;
+}
+.focus4l {
+  position: absolute;
+  top: 750px;
+  left: 1120px;
+  color: #05FF00;
+  font-size: 40px;
+  z-index: 2;
+}

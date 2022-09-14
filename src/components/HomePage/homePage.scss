@@ -1,0 +1,13 @@
+.home{
+  padding-left:20px;
+  padding-right: 20px;
+  display: grid;
+
+  &__main-part{
+    display:flex;
+    border: 1px solid #646667;
+    border-radius: 4px;
+    padding: 3px;
+    max-width: 1855px;
+  }
+}
